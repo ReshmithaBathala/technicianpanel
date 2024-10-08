@@ -1,0 +1,56 @@
+.services-container {
+  width: 80%; /* Adjust based on your design */
+  margin: auto;
+}
+
+.services-list {
+  display: flex; /* This allows the items to align horizontally */
+  flex-direction: column; /* Stack items vertically within each slide */
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in total width */
+}
+
+.list-item {
+  text-align: center; /* Center the text inside the list items */
+}
+
+.services-img {
+  width: 100px;
+  height: 100px;
+}
+.services-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-heading {
+  width: 663px;
+  height: 48px;
+  top: 616px;
+  left: 209px;
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 47.66px;
+  text-align: left;
+  color: #000000;
+}
+
+.services-para {
+  width: 1085px;
+  height: 50px;
+  top: 683px;
+  left: 209px;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 34px;
+  text-align: left;
+  color: #525f7f;
+}
+
+.services-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
